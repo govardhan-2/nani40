@@ -25,7 +25,7 @@ public class CreateAnAcceptPaymentTransaction {
     //
     public static ANetApiResponse run(String apiLoginId, String transactionKey, Double amount) {
 
-//nani modified
+
         //Common code to set for all requests
         ApiOperationBase.setEnvironment(Environment.SANDBOX);
 
